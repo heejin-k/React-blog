@@ -5,7 +5,7 @@ function Header() {
         <header>
             <div className="max-width">
                 <h1>
-                    <a href="./">
+                    <a href="/">
                         <img src="./assets/Logo.svg" alt="My Blog" />
                     </a>
                 </h1>
@@ -27,7 +27,7 @@ function Header() {
                             <span>Logout</span>
                         </button>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="/" className="button gray">
                             <img src="./assets/icon-login.svg" alt="" />
                             <span>Login</span>
@@ -38,7 +38,7 @@ function Header() {
                             <img src="./assets/icon-register.svg" alt="" />
                             <span>Register</span>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </header>

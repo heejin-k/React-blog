@@ -12,6 +12,8 @@ function Main() {
                     <Post />
                     <Post />
                     <Post />
+                    <Post />
+                    <Post />
                 </ul>
                 <About />
             </div>

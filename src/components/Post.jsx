@@ -5,7 +5,7 @@ function Post() {
         <li>
             <a href="post-view.html" className="post">
                 <article>
-                    <img src="./images/post-img6.jpg" alt="" />
+                    <img src="../assets/post-img6.jpg" alt="" />
                     <div className="contents-wrap">
                         {/*  category */}
                         <dl className="category">
@@ -20,7 +20,7 @@ function Post() {
                         {/* author */}
                         <dl className="author-wrap">
                             <dt className="a11y-hidden">Author</dt>
-                            <dd className="author"><img src="./images/profile.jpg" alt="" /> Chilli</dd>
+                            <dd className="author"><img src="../assets/profile.jpg" alt="" /> Chilli</dd>
                             <dt className="a11y-hidden">Created</dt>
                             <dd className="created">2022.05.25</dd>
                         </dl>
